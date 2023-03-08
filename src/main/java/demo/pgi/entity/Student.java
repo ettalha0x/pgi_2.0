@@ -21,5 +21,7 @@ public class Student {
     private String email;
     @Column(name = "password")
     private String password;
-
+    public Object getPassword() {
+        return null;
+    }
 }
