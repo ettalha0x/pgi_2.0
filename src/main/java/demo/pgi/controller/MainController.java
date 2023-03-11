@@ -15,7 +15,7 @@ import jakarta.servlet.http.HttpSession;
 public class MainController {
     @Autowired
     private MainService studentService;
-    @GetMapping("/register")
+    @GetMapping({"/register", "/signup"})
     public String register(){return "register";}
     @GetMapping("/dashboard")
     public String dashboard(HttpSession session) {
@@ -24,7 +24,7 @@ public class MainController {
         }
         return "dashboard";
     }
-    @GetMapping("/login")
+    @GetMapping({"/login", "/signin"})
     public String login(HttpSession session) {
         if (session.getAttribute("student") == null){
             return "login";
@@ -41,7 +41,7 @@ public class MainController {
         model.addAttribute("success", "regestration succssed");
         return "register";
     }
-    @PostMapping("/login")
+    @PostMapping({"/login", "/signin"})
     public String loginStudent(@RequestParam String username, @RequestParam String password, Model model, HttpSession session){
         Student s = this.studentService.loginStudent(username, password);
         if(s == null){
@@ -57,4 +57,8 @@ public class MainController {
         return "redirect:/login";
     }
 
+    @GetMapping({"/", "/index"})
+    public String index(){
+        return "index";
+    }
 }
