@@ -1,6 +1,6 @@
 demo/pgi/controller/MainController.class
 demo/pgi/Application.class
-demo/pgi/entity/Student.class
-demo/pgi/entity/Student$StudentBuilder.class
+demo/pgi/entity/Students$StudentsBuilder.class
 demo/pgi/services/MainService.class
+demo/pgi/entity/Students.class
 demo/pgi/repository/StudentRepository.class

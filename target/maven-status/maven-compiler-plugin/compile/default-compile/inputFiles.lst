@@ -1,5 +1,5 @@
-/home/ettalhaoui151201/pgi_2.0/src/main/java/demo/pgi/entity/Student.java
-/home/ettalhaoui151201/pgi_2.0/src/main/java/demo/pgi/Application.java
-/home/ettalhaoui151201/pgi_2.0/src/main/java/demo/pgi/services/MainService.java
-/home/ettalhaoui151201/pgi_2.0/src/main/java/demo/pgi/repository/StudentRepository.java
-/home/ettalhaoui151201/pgi_2.0/src/main/java/demo/pgi/controller/MainController.java
+/goinfre/nettalha/pgi_2.0/src/main/java/demo/pgi/repository/StudentRepository.java
+/goinfre/nettalha/pgi_2.0/src/main/java/demo/pgi/entity/Student.java
+/goinfre/nettalha/pgi_2.0/src/main/java/demo/pgi/services/MainService.java
+/goinfre/nettalha/pgi_2.0/src/main/java/demo/pgi/controller/MainController.java
+/goinfre/nettalha/pgi_2.0/src/main/java/demo/pgi/Application.java

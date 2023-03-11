@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import demo.pgi.entity.Student;
+import demo.pgi.entity.Students;
 import demo.pgi.services.MainService;
 import jakarta.servlet.http.HttpSession;
 
@@ -32,8 +32,8 @@ public class MainController {
         return "dashboard";
     }
     @PostMapping("/save")
-    public String saveStudent(@ModelAttribute Student student, Model model){
-        Student s = this.studentService.saveStudent(student);
+    public String saveStudent(@ModelAttribute Students student, Model model){
+        Students s = this.studentService.saveStudent(student);
         if(s == null){
             model.addAttribute("error", "regestration failed");
             return "register";
@@ -43,7 +43,7 @@ public class MainController {
     }
     @PostMapping({"/login", "/signin"})
     public String loginStudent(@RequestParam String username, @RequestParam String password, Model model, HttpSession session){
-        Student s = this.studentService.loginStudent(username, password);
+        Students s = this.studentService.loginStudent(username, password);
         if(s == null){
             model.addAttribute("error", "username or password incorrect");
             return "login";
