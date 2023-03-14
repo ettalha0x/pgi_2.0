@@ -1,6 +1,9 @@
+demo/pgi/entity/Admins.class
 demo/pgi/controller/MainController.class
 demo/pgi/Application.class
 demo/pgi/entity/Students$StudentsBuilder.class
 demo/pgi/services/MainService.class
 demo/pgi/entity/Students.class
+demo/pgi/entity/Admins$AdminsBuilder.class
 demo/pgi/repository/StudentRepository.class
+demo/pgi/repository/AdminRepository.class

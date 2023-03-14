@@ -1,5 +1,7 @@
-/goinfre/nettalha/pgi_2.0/src/main/java/demo/pgi/repository/StudentRepository.java
-/goinfre/nettalha/pgi_2.0/src/main/java/demo/pgi/entity/Student.java
-/goinfre/nettalha/pgi_2.0/src/main/java/demo/pgi/services/MainService.java
-/goinfre/nettalha/pgi_2.0/src/main/java/demo/pgi/controller/MainController.java
-/goinfre/nettalha/pgi_2.0/src/main/java/demo/pgi/Application.java
+/Users/nettalha/Desktop/pgi_2.0/src/main/java/demo/pgi/controller/MainController.java
+/Users/nettalha/Desktop/pgi_2.0/src/main/java/demo/pgi/Application.java
+/Users/nettalha/Desktop/pgi_2.0/src/main/java/demo/pgi/repository/StudentRepository.java
+/Users/nettalha/Desktop/pgi_2.0/src/main/java/demo/pgi/entity/Students.java
+/Users/nettalha/Desktop/pgi_2.0/src/main/java/demo/pgi/repository/AdminRepository.java
+/Users/nettalha/Desktop/pgi_2.0/src/main/java/demo/pgi/services/MainService.java
+/Users/nettalha/Desktop/pgi_2.0/src/main/java/demo/pgi/entity/Admins.java
